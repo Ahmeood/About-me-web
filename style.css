@@ -1,0 +1,101 @@
+body{
+    text-align: center;
+    margin: 0;
+}
+.first-container{
+    position: relative;
+    background-color: #0E46A3;
+}
+h1{
+    padding-bottom: 0px;
+    color: #9AC8CD;
+    font-size: 100px;
+    padding-top: 200px;
+    font-family: "Pacifico", cursive;
+}
+h2{
+    color: #9AC8CD;
+    font-size: 60px;
+    padding-bottom: 100px;
+    font-family: "Rubik", sans-serif;
+}
+.top-code{
+    position: absolute;
+    top: 10px;
+    right: 450px;
+    padding-bottom: 50px;
+}
+.bottom-code{
+    position: absolute;
+    bottom: 250px;
+    left: 400px;
+    padding-bottom: 100px;
+}
+.second-container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.Hello{
+    color: #9AC8CD;
+    font-size: 50px;
+    font-family: "Rubik", sans-serif;
+}
+.describe{
+    font-size: 30px;
+    width: 30%;
+    margin: auto;
+}
+hr{
+    border: dotted #9AC8CD 6px;
+    border-bottom: none;
+    width: 3%;
+    margin: 100 auto;
+}
+.parent{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr ;
+    grid-template-rows: repeat(1, 1fr);
+    row-gap: 2rem;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    width: 50%;
+}
+h3{
+    color: #9AC8CD;
+    font-family: "Rubik", sans-serif;
+}
+.video-games{
+    margin-left: 20px;
+}
+.programing{
+    margin-left: 20px;
+}
+.Get-in-touch{
+    padding-bottom: 10px;
+}
+.contact-me{
+    width: 25%;
+    margin: 100px auto 0 auto;
+}
+.btn{
+    background-color: #1E0342;
+    text-decoration: none;
+    color: white;
+    font-family: "Rubik", sans-serif;
+    border-radius: 8px;
+    padding: 10px 20px 10px 20px;
+}
+.third-container{
+    padding: 50px 0px 20px;
+    background-color: #0E46A3;
+}
+.copyright{
+    font-size: 0.75rem;
+    padding: 20px 0px;
+}
+a{
+    text-decoration: none;
+    color: #9AC8CD;
+    margin: 10px 20px;
+    font-family: "Rubik", sans-serif;
+}
